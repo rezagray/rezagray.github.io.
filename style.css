@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: "Blackadder ITC";    
+}
+header{
+    background-color: yellowgreen;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.main-wrapper{
+    background-image: url(cover.png);
+    background-repeat: no-repeat;
+    background-color: gold;
+    padding:340px 0px 24px 0px;
+    background-position: center;
+    width: 100%;
+    
+}
+h2{
+    text-align: center;
+}
+
+.fade{
+    animation: animasi 2s infinite;
+    text-align: center;
+    
+}
+@keyframes animasi {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.dorm-wrapper{
+    height: 300px;
+    padding-bottom: 80px;
+    background-color: gray;
+
+    text-align:center;
+}
+
+.dorm {
+    float: left;
+    width: 25%;
+    padding:0 px;
+  }
+  
+
+  .dorm-icon{
+    position:relative;
+  }
+  
+ 
+  .dorm-icon p{
+    position: absolute;
+  
+    top: 90px;
+  
+    width: 100%;
+  
+    color: white;
+  }
+  
+
+  .txt-contents{
+    width: 80%;
+     display: inline-block;
+  
+    margin-top: 20px;
+  
+    font-size: 20px;
+  
+    color:#b3aeb5;
+  
+  }
+  .dorm-icon img{
+    height: 200px;
+    width: 200px;
+  }
+  .container {
+  width: 100%;
+  
+  margin: 0 auto;
+}
+@media(max-width:1000px){
+  .dorm{width:50%;}
+  .dorm-wrapper{height: 500px;}
+}
+
+
+
+@media(max-width:670px){
+  .dorm{width:100%;}
+  .dorm-wrapper{height: 1150px;}
+}
+
+.queto{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.queto{
+  position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer{
+  background-color: red;
+  padding: 20px;
+}
