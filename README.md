@@ -1,3 +1,3 @@
 # rezagray.github.io.
 
-https://mangaeast.my.id/
+<a href="https://mangaeast.my.id/" rel="dofollow">https://mangaeast.my.id/</a>
